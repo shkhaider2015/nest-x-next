@@ -39,35 +39,35 @@ next-env.d.ts
 
 
 # compiled output
-/nestjs/dist
-/nestjs/node_modules
-/nestjs/build
+/backend/dist
+/backend/node_modules
+/backend/build
 
 # Logs
 logs
-/nestjs/logs
+/backend/logs
 *.log
-/nestjs/npm-debug.log*
-/nestjs/pnpm-debug.log*
-/nestjs/yarn-debug.log*
-/nestjs/yarn-error.log*
-/nestjs/lerna-debug.log*
+/backend/npm-debug.log*
+/backend/pnpm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/lerna-debug.log*
 
 # OS
-/nestjs/.DS_Store
+/backend/.DS_Store
 
 # Tests
-/nestjs/coverage
-/nestjs/.nyc_output
+/backend/coverage
+/backend/.nyc_output
 
 # IDEs and editors
-/nestjs/.idea
+/backend/.idea
 /.idea
-/nestjs/.project
-/nestjs/.classpath
-/nestjs/.c9/
+/backend/.project
+/backend/.classpath
+/backend/.c9/
 *.launch
-/nestjs/.settings/
+/backend/.settings/
 *.sublime-workspace
 
 # IDE - VSCode
@@ -78,21 +78,21 @@ logs
 !.vscode/extensions.json
 
 # dotenv environment variable files
-/nestjs/.env
-/nestjs/.env.development.local
-/nestjs/.env.test.local
-/nestjs/.env.production.local
-/nestjs/.env.local
+/backend/.env
+/backend/.env.development.local
+/backend/.env.test.local
+/backend/.env.production.local
+/backend/.env.local
 
 # temp directory
-/nestjs/.temp
-/nestjs/.tmp
+/backend/.temp
+/backend/.tmp
 
 # Runtime data
-/nestjs/pids
+/backend/pids
 *.pid
 *.seed
 *.pid.lock
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
-/nestjs/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+/backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
