@@ -1,0 +1,29 @@
+=================== Tutorial Link ==================
+https://www.prisma.io/blog/nestjs-prisma-rest-api-7D056s1BmOL0
+
+================== Create New Project =============================
+Create new project
+nest new project-name
+
+start server
+yarn start || yarn start:dev
+
+=====================================================================
+Prisma Migrate Command
+npx prisma migrate dev --name "migration-name"
+
+To seed data to database
+add to package.json
+ "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+Command
+npx prisma db seed
+=====================================================================
+
+generating modules / services
+npx nest generate module module-name
+npx nest generate service service-name
+
+generate resources
+npx nest generate resource

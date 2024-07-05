@@ -34,3 +34,65 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+
+
+# compiled output
+/nestjs/dist
+/nestjs/node_modules
+/nestjs/build
+
+# Logs
+logs
+/nestjs/logs
+*.log
+/nestjs/npm-debug.log*
+/nestjs/pnpm-debug.log*
+/nestjs/yarn-debug.log*
+/nestjs/yarn-error.log*
+/nestjs/lerna-debug.log*
+
+# OS
+/nestjs/.DS_Store
+
+# Tests
+/nestjs/coverage
+/nestjs/.nyc_output
+
+# IDEs and editors
+/nestjs/.idea
+/.idea
+/nestjs/.project
+/nestjs/.classpath
+/nestjs/.c9/
+*.launch
+/nestjs/.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+/nestjs/.env
+/nestjs/.env.development.local
+/nestjs/.env.test.local
+/nestjs/.env.production.local
+/nestjs/.env.local
+
+# temp directory
+/nestjs/.temp
+/nestjs/.tmp
+
+# Runtime data
+/nestjs/pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+/nestjs/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

@@ -2,6 +2,11 @@
   "name": "nest-x-next",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">= 20.11.1",
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.21"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
